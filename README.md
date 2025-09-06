@@ -15,10 +15,12 @@ This is a simple Twitter/X-like social media app built with [React Native](https
 ## Screenshots
 
 ### Home Feed
-![Home Feed](assets/images/feed-screenshot.png)
+<img width="267" height="581" alt="image" src="https://github.com/user-attachments/assets/934dfd1e-2d19-466a-a091-2cb74b635972" />
+
 
 ### Profile Page
-![Profile Page](assets/images/profile-screenshot.png)
+<img width="266" height="580" alt="image" src="https://github.com/user-attachments/assets/90f9d32b-66f2-4f3f-b589-6c1d8930a0a4" />
+
 
 ## Getting Started
 
