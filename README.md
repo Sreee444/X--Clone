@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# X--Clone (Twitter/X Clone)
 
-## Get started
+This is a simple Twitter/X-like social media app built with [React Native](https://reactnative.dev/) and [Expo Router](https://expo.dev/). It demonstrates a modern mobile UI, navigation, and basic data handling for posts and profiles.
 
-1. Install dependencies
+## Features
 
+- Home feed with post cards (images, captions, likes, reposts, shares, views)
+- Profile page showing user info and their posts
+- Custom navigation bar and tab bar
+- Modern UI inspired by Twitter/X
+- Built with Expo Router for file-based navigation
+
+
+## Screenshots
+
+### Home Feed
+![Home Feed](assets/images/feed-screenshot.png)
+
+### Profile Page
+![Profile Page](assets/images/profile-screenshot.png)
+
+## Getting Started
+
+1. **Install dependencies**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+2. **Start the app**
    ```bash
    npx expo start
    ```
+3. **Open in your device or emulator**
+   - Android: Expo Go app or emulator
+   - iOS: Expo Go app or simulator
+   - Web: Open in browser
 
-In the output, you'll find options to open the app in a
+## Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- `app/` - Main screens (feed, profile, layout)
+- `components/` - Reusable UI components (Header, Post)
+- `assets/` - Images and fonts
+- `constants/` - Colors and config
+- `hooks/` - Custom hooks
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technologies Used
 
-## Get a fresh project
+- React Native
+- Expo
+- Expo Router
+- @expo/vector-icons
 
-When you're ready, run:
+## Contributing
 
-```bash
-npm run reset-project
-```
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## License
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is for educational/demo purposes.

@@ -1,10 +1,9 @@
-import { useLocalSearchParams } from 'expo-router';
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 import Post from '../components/Post';
-import { posts } from './index.jsx'; // Import posts array from index.jsx
+import { posts } from './index.jsx';
 
 const Profile = () => {
-  // Get user with id 1
+  
   const user = posts.find(post => post.id === 1);
   const userPosts = posts.filter(post => post.id === 1);
 

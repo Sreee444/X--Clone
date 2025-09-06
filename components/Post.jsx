@@ -1,27 +1,29 @@
-import { Feather } from '@expo/vector-icons';
+import { EvilIcons, Feather, Ionicons, FontAwesome } from '@expo/vector-icons';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
 const Post = ({ data }) => {
   return (
     <View style={styles.card}>
-      {/* User Info Row */}
+      
       <View style={styles.header}>
         <Image source={{ uri: data.Profilepic }} style={styles.avatar} />
         <View style={{ flex: 1 }}>
           <Text style={styles.username}>{data.name}</Text>
           <Text style={styles.caption}>{data.postCaption}</Text>
         </View>
-        {/* More options icon (not interactive for now) */}
+        
         <Feather name="more-horizontal" size={20} color="#888" />
       </View>
-      {/* Post Image */}
+      
       <Image source={{ uri: data.postImage }} style={styles.postImage} />
-      {/* Actions Row (just icons and counts) */}
+      
       <View style={styles.actionsRow}>
         <View style={styles.action}><Feather name="message-circle" size={20} color="#888" /><Text style={styles.actionText}>{data.shareCount}</Text></View>
         <View style={styles.action}><Feather name="repeat" size={20} color="#888" /><Text style={styles.actionText}>{data.repostCount}</Text></View>
         <View style={styles.action}><Feather name="heart" size={20} color="#888" /><Text style={styles.actionText}>{data.likeCount}</Text></View>
         <View style={styles.action}><Feather name="bar-chart-2" size={20} color="#888" /><Text style={styles.actionText}>{data.viewCount}</Text></View>
+        <View style={styles.action}><FontAwesome name="bookmark-o" size={20} color="#888" /></View>
+        <View style={styles.action}><Feather name="share-2" size={20} color="#888" /></View>
       </View>
     </View>
   );

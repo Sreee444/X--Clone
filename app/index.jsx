@@ -50,7 +50,7 @@ const index = () => {
 
   return (
     <View style={styles.container}>
-      {/* Top Navigation Bar */}
+            
       <View style={styles.topBar}>
         <Image source={{ uri: posts[0].Profilepic }} style={styles.profilePic} />
         <FontAwesome6 name="x-twitter" size={24} color="black" />
@@ -63,7 +63,7 @@ const index = () => {
         </TouchableOpacity>
       </View>
 
-      {/* Tabs */}
+            
       <View style={styles.tabsRow}>
         <View style={styles.tabActive}>
           <Text style={styles.tabActiveText}>For you</Text>
