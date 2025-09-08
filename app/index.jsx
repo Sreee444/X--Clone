@@ -73,7 +73,7 @@ const index = () => {
         </View>
       </View>
 
-      {/* Feed */}
+      
       <FlatList
         data={posts}
         keyExtractor={(item) => item.id.toString()}
